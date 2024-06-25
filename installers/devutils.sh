@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# VScode on Ubuntu
+# Ubuntu
 
 # Check if the script is being executed as root
 if [ "$(id -u)" -ne 0 ]; then
