@@ -5,6 +5,6 @@ if [ "$(id -u)" -ne 0 ]; then echo " > Run the script again with 'sudo $0'."; ex
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 chmod +x get-docker.sh
-sh ./get-docker.sh --dry-run
+sh ./get-docker.sh
 rm -f get-docker.sh
 usermod -aG docker $USER
